@@ -1,9 +1,6 @@
 //Ship Project 
 //Justin Whitfield
 
-//Datatype to create image and variables for ship movement and control
-
-
 //Datatype that uses a f variable
 float f;
 //Declaration for Ship
