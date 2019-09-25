@@ -9,8 +9,9 @@ float f;
 //Declaration for Ship
 Ship pnuema;
 
-//Setup used to create size for window, load ship image, and create variable for ship
+//Setup used to store size for window and initialization for ship
 void setup() { 
+  //Creates size for window
   size(1000, 500);
   //initialization for ship
   pnuema = new Ship();
@@ -25,5 +26,4 @@ void draw() {
   pnuema.move();
   //Calls display method on Ship
   pnuema.display();
-  //Variables and functions for ship that let move across the X and Y axis
 }

@@ -18,11 +18,17 @@ class Ship {
 
   //Movement method
   void move() {
+    //Initialization for targetX that checks if it's equal to mouseX
     targetX = mouseX;
+    //Initialization for dx that checks if it's equal to targetX minus X
     dx = targetX - x;
+    //Initialization for X that checks if adds dx times easing
     x += dx * easing;
+     //Initialization for targetY that checks if it's equal to mouseY
     targetY = mouseY;
+    //Initialization for dy that checks if it's equal to targetY minus Y
     dy = targetY - y;
+    //Initialization for Y that checks if adds dy times easing
     y += dy * easing;
   }
 
