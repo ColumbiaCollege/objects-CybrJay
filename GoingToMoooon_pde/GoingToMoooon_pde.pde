@@ -1,7 +1,7 @@
 //Ship Project 
 //Justin Whitfield
 
-//Datatype that uses a f variable
+//Datatype that declares the f variable
 float f;
 //Declaration for Ship
 Ship pnuema;
@@ -14,7 +14,7 @@ void setup() {
   pnuema = new Ship();
 }
 
-//Draw used to store background,functions,variables, and position for image
+//Draw used to store background for image, movement, and display methods for Ship
 void draw() {  
 
   //Background for image that's set to black
