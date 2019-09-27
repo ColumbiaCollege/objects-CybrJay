@@ -3,7 +3,7 @@
 
 //Datatype that declares the f variable
 float f;
-//Declaration for Ship
+//Declaration for Ship called pnuema
 Ship pnuema;
 
 //Setup used to store size for window and initialization for ship

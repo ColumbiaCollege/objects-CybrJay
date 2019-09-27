@@ -31,7 +31,7 @@ class Ship {
     f = height/2;
   }
 
-  //Movement method
+  //Movement method that stores initializations targetX/targetY, dx/dy, and x/y
   void move() {
     //Initialization for targetX that checks if it's equal to mouseX
     targetX = mouseX;
